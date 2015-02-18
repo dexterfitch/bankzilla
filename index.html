@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Hello Friend</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bankzilla</h1>
+      <div class="col-md-4">
+        <h2>Create an Account</h2>
+        <form id="new-account">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input class="form-control" type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="initial-deposit">Initial Deposit:</label>
+            <input class="form-control" type="text" id="initial-deposit" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Create Account</button>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <h2>Deposit / Withdrawal:</h2>
+        <form id="account-interact">
+          <div class="form-group">
+            <label for="deposit">Deposit:</label>
+            <input class="form-control" type="text" id="deposit" required>
+          </div>
+          <div class="form-group">
+            <label for="withdraw">Withdraw:</label>
+            <input class="form-control" type="text" id="withdraw" required>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-4" id="show-response">
+          <h2>Balance:</h2>
+          <h3 id="balance"></h3>
+      </div>
+    </div>
+
+  </body>
+</html>
