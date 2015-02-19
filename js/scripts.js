@@ -20,13 +20,13 @@ $(document).ready(function() {
     newAccount.name = inputName;
     newAccount.deposit(initialDeposit);
 
-    $("#customer-name").append(newAccount.name);
+    $("#customer-name").append(newAccount.name + "'s ");
     $("h3#balance").append("$" + newAccount.balance);
 
     $("input#name").val("");
     $("input#initial-deposit").val("")
 
-    $("#show-balance").show();
+    $("h3#balance").show();
 
   });
 

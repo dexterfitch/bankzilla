@@ -1,12 +1,13 @@
 h1 {
+  font-family: 'Tinos', serif;
   text-align: center;
-  text-decoration: underline;
+  font-size: 4em;
 }
-
+.blr {
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+}
 #balance {
   margin-top: 2.4em;
-}
-
-#show-balance {
   display: none;
 }
